@@ -1,11 +1,11 @@
 .banner{
     height: 840px;
-    background-image: url("../../img/banner.png");
+    background-image: url("../img/banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     @include pad(){
-        background-image: url("../../img/banner-sm.png");
+        background-image: url("../img/banner-sm.png");
         height: 394px;
     }
 }
