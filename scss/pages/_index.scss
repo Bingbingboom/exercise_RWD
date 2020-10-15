@@ -1,0 +1,180 @@
+.banner{
+    height: 840px;
+    background-image: url("../../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include pad(){
+        background-image: url("../../img/banner-sm.png");
+        height: 394px;
+    }
+}
+
+.slogan{
+    p{
+        @include pc-pad(){
+            font-size: 20px;
+        }
+        @include pad-phone(){
+            font-size: 16px;
+        }
+    }
+    h2{
+        @include pc-pad(){
+            font-size: 48px;
+        }
+        @include pad-phone(){
+            font-size: 32px;
+        }
+    }
+}
+
+.indexh3{
+    @include pc-pad(){
+        font-size: 32px;
+    }
+    @include pad-phone(){
+        font-size: 24px;
+    }
+}
+
+.bg-cream{
+    background-color: #AA06010D;
+}
+
+.features{
+    h4{
+        @include pc-pad(){
+            font-size: 20px;
+        }
+    }
+    img{
+        @include pc-pad(){
+            width: 80px;
+        }
+    }
+    @include pc-pad(){
+        li:nth-child(1){
+            order: 3;
+        }
+        li:nth-child(2){
+            order: 1;
+        }
+        li:nth-child(3){
+            order: 2;
+        }
+        li:nth-child(4){
+            order: 4;
+        }
+    }
+}
+
+.italic{
+    font-style: italic;
+}
+
+.classic{
+    h4{
+        @include pc-pad(){
+            font-size: 28px;
+        }
+    }
+    li{
+        position: relative;
+    }
+    &-s{
+        color: #FFF;
+        position: absolute;
+        top: 40%;
+        left: 28%;
+    }
+}
+
+.joint{
+    height: 743px;
+    background-image: url("../../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include pc-pad(){
+        height: 437px;
+    }
+    @include pad-phone(){
+        height: 696px;
+    }
+    &-Aplus{
+        height: 472px;
+        background-image: url("../../img/product-8.png"); //product-8
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; 
+        // 透明度 0.5 的白色半透明遮罩
+        background-color: rgba(255, 255, 255, 0.5);
+        // 設置背景混和模式為疊加模式
+        background-blend-mode: overlay;
+        @include pc-pad(){
+            height: 280px;
+        }
+        @include pad-phone(){
+            height: 284px;
+        }
+    }
+    &-youth{
+        height: 472px;
+        background-image: url("../../img/product-9.png"); //product-9
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        // 透明度 0.5 的白色半透明遮罩
+        background-color: rgba(255, 255, 255, 0.5);
+        // 設置背景混和模式為疊加模式
+        background-blend-mode: overlay;
+        @include pc-pad(){
+            height: 280px;
+        }
+        @include pad-phone(){
+            height: 284px;
+        }
+    }
+    h4{
+        @include pc-pad(){
+            font-size: 32px;
+        }
+    }
+}
+
+.recommend{
+    &-body{
+        border: 1px solid #DEE2E6;
+    }
+}
+
+.con{
+    p{
+        @include pc-pad(){
+            font-size: 16px;
+        }
+    }
+    label{
+        @include pc-pad(){
+            font-size: 14px;
+        }
+    }
+    
+}
+
+.cnbtn{
+    width: 100%;
+    @include pc-pad(){
+        font-size: 14px;
+    }
+}
+
+.conBorder{
+    border-radius: 0;
+    border-color: #000;
+}
+
+.sharpBorder{
+    border-radius: 0;
+}

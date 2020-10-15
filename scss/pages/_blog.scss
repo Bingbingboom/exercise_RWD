@@ -1,0 +1,177 @@
+.blog{
+    margin-bottom: 82px;
+    @include pc-pad(){
+        margin-bottom: 40px;
+    }
+}
+
+.blogMenu{
+    padding: 12px 0;
+    a{
+        color: #FFF;
+        &:hover{
+            color: #D7D7D7;
+        }
+        @include pad-phone(){
+            font-size: 14px;
+        }
+    }
+}
+
+.mb-82{
+    margin-bottom: 82px;
+}
+
+.news{
+    h2{
+        font-size: 32px;
+        @include pc-pad(){
+            font-size: 20px;
+            margin-bottom: 0;
+        }
+        @include pad-phone(){
+            font-size: 16px;
+        }
+    }
+    h3{
+        @include pc-pad(){
+            font-size: 16px;
+        }
+        @include pad-phone(){
+            font-size: 14px;
+        }
+    }
+    .date{
+        font-size: 16px;
+        @include pc-pad(){
+            font-size: 14px;
+        }
+    }
+    p{
+        font-size: 20px;
+        color: #555555;
+        @include pc-pad(){
+            font-size: 14px;
+        }
+    }
+    &-more{
+        color: $secondary;
+        font-weight: 900;
+        font-size: 36px;
+        text-align: right;
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+}
+
+.smore{
+    color: #555555;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+// blog_article
+.hashtag{
+    font-size: 24px;
+    font-weight: bold;
+    color: $primary;
+    @include pc-pad(){
+        font-size: 16px;
+    }
+    @include pad(){
+        font-size: 14px;
+    }
+    @include pad-phone(){
+        font-size: 16px;
+    }
+}
+
+.arcitle{
+    h2{
+        @include pc-pad(){
+            font-size: 32px;
+        }
+        @include pad-phone(){
+            font-size: 20px;
+        }
+    }
+    h3{
+        font-size: 28px;
+        @include pc-pad(){
+            font-size: 16px;
+            margin-bottom: 18px;
+        }
+        @include pad-phone(){
+            font-size: 14px;
+        }
+        span{
+            color: #6C6C6C;
+            font-size: 16px;
+            @include pc-pad(){
+                font-size: 14px;
+            }
+        }
+    }
+    &-p{
+        color: #0A0A0A;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 36px;
+        @include pc-pad(){
+            font-size: 16px;
+        }
+    }
+}
+
+.pagetag{
+    @include pc-pad(){
+        font-size: 14px;
+    }
+}
+
+.share{
+    border-bottom: 1px solid #707070;
+    h6{
+        @include pad-phone(){
+            font-size: 16px;
+        }
+    }
+    img{
+        width: 20px;
+    }
+    
+}
+
+.article-change{
+    a{
+        color: #000;
+        font-size: 19px;
+        &:hover{
+            color: $primary;
+        }
+        @include pad(){
+            font-size: 14px;
+        }
+    }
+    img{
+        @include pad(){
+            width: 16px;
+        }
+    }
+}
+
+.tag{
+    h5{
+        font-size: 28px;
+        color: $primary;
+        @include pc-pad(){
+            font-size: 20px;
+        }
+    }
+    img{
+        @include pc-pad(){
+            width: 24px;
+        }
+    }
+}

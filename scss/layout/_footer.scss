@@ -1,0 +1,36 @@
+.footer{
+    &-info{
+        border-bottom: 1px solid #FFF;
+    }
+    @include pad(){
+        &-icon{
+            width: 24px;
+        }
+    }
+    a{
+        color: #FFF;
+        &:hover{
+            color: #D7D7D7;
+        }
+    }
+    
+}
+
+.fz{
+    font-size: 36px;
+    @include pad(){
+        font-size: 20px;
+    }
+    @include pad-phone(){
+        font-size: 16px;
+    }
+}
+
+.copyright{
+    flex-grow: 1;
+    a{
+        @include pad(){
+            font-size: 14px;
+        }
+    }
+}

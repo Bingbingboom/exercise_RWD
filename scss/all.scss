@@ -1,0 +1,13 @@
+@import "bootstrap/bootstrap.scss";
+@import "global";
+
+@import "mixin";
+@import "layout/header";
+@import "layout/footer";
+
+
+@import "pages/index";
+@import "pages/products";
+@import "pages/location";
+@import "pages/blog";
+@import "pages/question";

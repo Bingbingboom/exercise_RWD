@@ -1,0 +1,185 @@
+.productMenu{
+    li{
+        width: 462px;
+        border: 1px solid #DCDCDC;
+        border-bottom: transparent;
+        @include pc-pad(){
+            width: 100%;
+        }
+    }
+    a{
+        color: #000;
+        font-size: 42px;
+        border-bottom: 16px solid transparent;
+        &:hover{
+            border-bottom-color: $primary;
+        }
+        @include pc-pad(){
+            font-size: 28px;
+        }
+        @include pad(){
+            border-bottom: 8px solid transparent;
+        }
+        @include pad-phone(){
+            font-size: 14px;
+        }
+    }
+    .productMenu-underline{
+        border-bottom-color: $primary;
+    }
+}
+
+.ic-diamond{
+    @include pc-pad(){
+        width: 32px;
+    }
+    @include pad-phone(){
+        width: 14px;
+    }
+}
+.ic-sun{
+    @include pc-pad(){
+        width: 32px;
+    }
+    @include pad-phone(){
+        width: 14px;
+    }
+}
+.ic-thunder{
+    @include pc-pad(){
+        width: 23px;
+    }
+    @include pad-phone(){
+        width: 10px;
+    }
+}
+
+.mr-30px{
+    margin-right: 30px;
+}
+.mb-100px{
+    margin-bottom: 100px;
+}
+
+.products{
+    h2{
+        font-size: 42px;
+        @include pad(){
+            font-size: 32px;
+        }
+        @include pad-phone(){
+            font-size: 20px;
+        }
+    }
+    p{
+        font-size: 32px;
+        @include pad(){
+            font-size: 24px;
+        }
+        @include pad-phone(){
+            font-size: 16px;
+        }
+    }
+    h5,span{
+        @include pad-phone(){
+            font-size: 16px;
+        }
+    }
+}
+
+.borderTransparent{
+    border: transparent;
+}
+
+.opbtn{
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    @include pad-phone(){
+        width: 16px;
+        height: 16px;
+    }
+}
+.sunbtn{
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+}
+
+.btnCoffee{
+    background-color: #5F3E2D;
+}
+.btnLightCoffee{
+    background-color: #B75929;
+}
+
+.page{
+    li{
+        border: 1px solid #555555;
+        &:nth-child(3){
+            background-color: #000;
+            a{
+                color: #FFF;
+            }
+        }
+        &:last-child{
+            background-color: #F2F2F2;
+        }
+        &:hover{
+            background-color: #000;
+            a{
+                color: #FFF;
+            }
+        }
+    }
+    a{
+        color: #555555;
+        padding: 12px 14px;
+        @include pad-phone(){
+            font-size: 12px;
+            padding: 10px;
+        }
+    }
+}
+
+// .sunBannerI{
+//     width: 945px;
+//     height: 309px;
+// }
+.productBanner{
+    li{
+        width: 945px;
+        height: 309px;
+        @include pad(){
+            height: 144px;
+        }
+    }
+}
+.opBannerI{
+    background-image: url("../../img/banner-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.opBannerII{
+    background-image: url("../../img/banner-2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sunBannerI{
+    background-image: url("../../img/banner-3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sunBannerII{
+    background-image: url("../../img/product-2-color.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fz-18{
+    font-size: 18px;
+}

@@ -1,0 +1,43 @@
+.question{
+    h3{
+        font-size: 32px;
+        margin-bottom: 36px;
+        @include pad-phone(){
+            font-size: 20px;
+        }
+    }
+    p{
+        margin-left: 95px;
+        @include pad(){
+            margin-left: 60px;
+        }
+        @include pad-phone(){
+            margin-left: 0;
+            font-size: 14px;
+        }
+    }
+    h4{
+        @include pad-phone(){
+            font-size: 16px;
+        }
+    }
+}
+
+.qaBanner{
+    h2{
+        @include pad(){
+            font-size: 48px;
+        }
+        @include pad-phone(){
+            font-size: 28px;
+        }
+    }
+    img{
+        @include pad-phone(){
+            width: 24px;
+        }
+    }
+}
+.mb-56{
+    margin-bottom: 56px;
+}
